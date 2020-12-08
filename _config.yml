@@ -1,2 +1,5 @@
 timezone: Europe/Madrid
 url: https://aluvar5501.github.io
+
+plugins:
+  - jekyll-postcss

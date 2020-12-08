@@ -1,5 +1,21 @@
-<nav>
-{% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-{% endfor %}
+<nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg mb-3 nav-main">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+      <img src="/assets/images/logo.png" class="inline-block ml-0 mr-4" width="80px" height="80px">
+      <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="/">
+        Cyber Coyote
+      </a>
+    </div>
+    <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
+      <ul class="flex flex-col lg:flex-row list-none ml-auto">
+      {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a class="{% if page.url == item.link %}current {% endif %}px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="{{ item.link }}">
+            {{ item.name }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
 </nav>

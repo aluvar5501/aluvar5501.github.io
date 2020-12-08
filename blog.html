@@ -2,12 +2,12 @@
 layout: default
 title: Blog
 ---
-<h1>Ultimas Entradas</h1>
+<h1 class="text-5xl font-normal leading-normal">Ultimas Entradas</h1>
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <li class="blog-post-item rounded-md mt-2 mb-4 p-5">
+      <h2 class="text-2xl font-normal leading-normal"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}

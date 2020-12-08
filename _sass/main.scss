@@ -1,3 +1,65 @@
+:root {
+  --color-primary: #644227;
+  --color-secondary: #4B403E;
+  --color-tertiary: #24252A;
+  --color-quaternary: #7C5335;
+  --color-text-light: #BCAEAB;
+  --color-text-dark: #1F150C;
+  --color-text-highlight: #CF8C21;
+}
+
+a {
+  color: var(--color-text-highlight);
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+body {
+  background-color: var(--color-tertiary);
+  color: var(--color-text-light);
+}
+
+h3 {
+  border-bottom: 2px solid var(--color-text-light);
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+  margin-top: .5em;
+}
+
+hr {
+  margin-bottom: .5em;
+  margin-top: 2em;
+}
+
+main {
+  background-color: var(--color-primary);
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+.blog-post-item {
+  background-color: var(--color-quaternary);
+}
+
 .current {
-  color: green;
+  color: var(--color-text-highlight);
+}
+
+.nav-main {
+  background-color: var(--color-secondary);
+}
+
+#disqus_thread {
+  margin-top: 2em;
+  padding: 0 1.5em;
 }

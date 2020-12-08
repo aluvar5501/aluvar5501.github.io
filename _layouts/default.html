@@ -14,16 +14,24 @@
 
   <!-- favicon.png y apple-touch-icon.png en el directorio raiz -->
 
-  <link rel="stylesheet" href="/assets/css/vendor/normalize.css?v=8.0.1">
   <link rel="stylesheet" href="/assets/css/styles.css?v=0.0">
   <link rel="icon" href="/favicon.png">
 
 </head>
 
-<body>
+<body class="container mx-auto px-6">
 
-  {% include navigation.html %}
-  {{ content }}
+  <header>
+    {% include navigation.html %}
+  </header>
+
+  <main class="container mx-auto p-4">
+    {{ content }}
+  </main>
+
+  <footer>
+    <!-- -->
+  </footer>
   <!-- <script src=""></script> -->
 
 </body>
