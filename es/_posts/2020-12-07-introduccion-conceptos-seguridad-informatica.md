@@ -6,6 +6,7 @@ excerpt: Breve introduccion a los conceptos de la Seguridad Informatica en la ac
 date: '2020-12-07 22:07:00'
 lang: es
 lang-ref: intro-computer-security-concepts
+section: blog
 ---
 ### ¿Que es la Seguridad Informatica?
 

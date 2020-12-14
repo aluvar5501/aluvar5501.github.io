@@ -1,7 +1,9 @@
 - blog:
-  name: "blog"
   link: "/"
+  name: "blog"
+  section: "blog"
 
 - about:
-  name: "aboutMe"
   link: "/about.html"
+  name: "aboutMe"
+  section: "about"
