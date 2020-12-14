@@ -1,0 +1,23 @@
+blog:
+  en: "Blog"
+  es: "Blog"
+
+aboutMe:
+  en: "About Me"
+  es: "Acerca De"
+
+latestPosts:
+  en: "Latest Posts"
+  es: "Ultimas Entradas"
+
+relatedPosts:
+  en: "Related Posts"
+  es: "Artículos Relacionados"
+
+differentLanguage:
+  en: "Read this page in a different language"
+  es: "Lee esta página en otro idioma"
+
+viewIn:
+  en: "View in"
+  es: "Ver en"

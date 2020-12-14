@@ -1,6 +1,7 @@
-- name: Inicio
-  link: /
-- name: Acerca De
-  link: /about.html
-- name: Blog
-  link: /blog.html
+- blog:
+  name: "blog"
+  link: "/"
+
+- about:
+  name: "aboutMe"
+  link: "/about.html"

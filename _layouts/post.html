@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article>
+<article class="rounded-md shadow-md mt-2 mb-4 p-5">
 
   <h1 class="text-5xl font-normal leading-normal">{{ page.title }}</h1>
 
@@ -11,13 +11,13 @@ layout: default
 
 </article>
 
-<div id="disqus_thread"></div>
+<div id="disqus_thread" class="mt-8 px-6"></div>
 
 <script>
 
     var disqus_config = function () {
-    this.page.url = '{{ site.url }}{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = '{{ site.url }}{{ page.url }}';
+    this.page.identifier = '{{ page.id }}';
     };
 
     (function() { // DON'T EDIT BELOW THIS LINE
