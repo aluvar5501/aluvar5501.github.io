@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Juan C. Vara
-title: What is a Headless CMS?
-excerpt: This post explains what is a Headless CMS
+title: ¿Que es un Headless CMS?
+excerpt: Esta entrada explica que es un Headless CMS
 date: '2020-12-06 20:45:00'
 lang: es
 lang-ref: headless-cms
