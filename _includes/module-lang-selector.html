@@ -6,13 +6,13 @@
 
 {% if posts.size > 1 %}
 <div class="lang-selector">
-  <em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
+  <em>{{ site.data.translations[page.lang]['differentLanguage'] }}:</em>
   <ul>
   {% for post in posts %}
     <li class="lang-item inline-block m-4">
       <a href="{{ site.base-url }}{{ post.url }}"
          class="lang-{{ post.lang }}"
-         title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[post.lang].label }}">
+         title="{{ site.data.translations[page.lang]['viewIn'] }} {{ site.data.languages[post.lang].label }}">
         {{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}
       </a>
     </li>

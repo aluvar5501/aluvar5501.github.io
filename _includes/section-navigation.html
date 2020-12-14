@@ -12,7 +12,7 @@
         <li class="nav-item">
           <a class="{% if page.url == item.link %}current {% endif %}px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
              href="/{{ page.lang }}{{ item.link }}">
-            {{ site.data.translations[item.name][page.lang] }}
+            {{ site.data.translations[page.lang][item.name] }}
           </a>
         </li>
       {% endfor %}
