@@ -5,9 +5,9 @@
 {% endif %}
 
 {% if posts.size > 1 %}
-<div class="lang-selector">
+<div class="module-lang-selector text-center">
   <em>{{ site.data.translations[page.lang]['differentLanguage'] }}:</em>
-  <ul>
+  <ul class="text-lg">
   {% for post in posts %}
     <li class="lang-item inline-block m-4">
       <a href="{{ site.base-url }}{{ post.url }}"
