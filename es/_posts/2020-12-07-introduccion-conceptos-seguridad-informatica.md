@@ -8,6 +8,8 @@ lang: es
 lang-ref: intro-computer-security-concepts
 section: blog
 ---
+![Imagen de cabecera](/assets/images/2020-12-07-introduccion-conceptos-seguridad-informatica/01.jpg "Imagen de cabecera"){: .rounded-lg .shadow-lg}
+
 ### ¿Que es la Seguridad Informatica?
 
 La Seguridad Informatica, o Ciberseguridad, es un concepto en alza en los ultimos años, llenando cada vez mas los espacios de noticias con historias de ataques, brechas y perdidas para las empresas afectadas. Pero, ¿En que consiste exactamente la Seguridad Informatica?
@@ -51,7 +53,6 @@ Esta nueva industria inteligente, o Industria 4.0, se enfrenta a nuevas y variad
 
 - [La anatomia de #WannaCry](https://www.pandasecurity.com/es/mediacenter/src/uploads/2017/05/WC-info_ckc-es-1-1100x953.jpg "La anatomia de #WannaCry")
 - [30 años de Ciberataques](https://www.pandasecurity.com/es/mediacenter/panda-security/30-anos-ciberataques-barrotes-wannacry/ "30 años de Ciberataques")
-
 
 [1]:  https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html "What is Cybersecurity? - Cisco"
 [2]:  https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security "What is Cybersecurity? Definition, Types and User Protection - Kaspersky"
